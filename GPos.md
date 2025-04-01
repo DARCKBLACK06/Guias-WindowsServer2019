@@ -9,15 +9,15 @@
 
  Nos dirijimos al menu de inicio y en la seccion de Herramientas Administrativas desplegamos el menu y seleccionamos Administracion de directivas de Grupo
 
- ![Imagen de inicio Gpos]()
+ ![Imagen de inicio Gpos](https://github.com/DARCKBLACK06/Guias-WindowsServer2019/blob/main/Imagenes%2FCaptura-1.PNG)
 
 Esto nos llevara a la siguiente ventana donde en la seccion bosque desplegaremos entraremos a dominios y nos iremos a nuestro dominio en este caso netsecure.com
 
-![Imagen de Bosque]()
+![Imagen de Bosque](https://github.com/DARCKBLACK06/Guias-WindowsServer2019/blob/main/Imagenes%2FCaptura-2.PNG)
 
 Aqui se nos desplegara el siguiente menu donde nos iremos a "Objetos de directivas de grupo" aqui por defecto estaran dos directivas creadas con el nombre Default Domain aqui
 
-![Imagen directivas]()
+![Imagen directivas]https://github.com/DARCKBLACK06/Guias-WindowsServer2019/blob/main/Imagenes%2FCaptura-3.PNG()
 
 Daremos click derecho y crearemos una nueva gpo le pondremos un nombre para identificarlo en este caso Area-ventas y aceptar con esto la directiva de grupo se habra creado 
 
