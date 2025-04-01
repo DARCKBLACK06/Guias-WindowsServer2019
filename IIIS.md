@@ -27,7 +27,7 @@
  Agregaremos la ruta de php a las variables de entorno del sistema copiamos la ruta "C:\php" y dando click derecho en este equipo y propiedades esto nos llevara a las propiedades de sistema una vez ahi daremis click en Configuracion avanzada del sistema en opciones avanzadas seleccionaremos variables de entorno y en la seccion variables del sistema seleccionaremos Path y daremos click en editar, seleccionamos nuevo y pegamos la direccion de php que es "C:\php" y guardaremos los cambios 
  
 ![Imagen paso 5](https://github.com/DARCKBLACK06/Guias-WindowsServer2019/blob/main/Imagenes/Paso5.PNG)  
-![Imagen paso 5.1](https://github.com/DARCKBLACK06/Guias-WindowsServer2019/blob/main/Imagenes/Paso5.1.PNG)
+![Imagen paso 5.1](https://github.com/DARCKBLACK06/Guias-WindowsServer2019/blob/main/Imagenes/PaPaso5.1.PNG)
 ![Imagen paso 5.2](https://github.com/DARCKBLACK06/Guias-WindowsServer2019/blob/main/Imagenes/Paso5.2.PNG)
 
  ### Sexto paso
