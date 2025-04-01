@@ -3,17 +3,16 @@
 
 [Descripcion de que son las GPOS]
 
-  ![Imagen inicio]()
 
 ### Restringir Acceso al Panel de Control mediante GPOS
 
  Nos dirijimos al menu de inicio y en la seccion de Herramientas Administrativas desplegamos el menu y seleccionamos Administracion de directivas de Grupo
 
- ![Imagen de inicio Gpos](https://github.com/DARCKBLACK06/Guias-WindowsServer2019/blob/main/Imagenes%2FCaptura-1.PNG)
+ ![Imagen de inicio Gpos](https://github.com/DARCKBLACK06/Guias-WindowsServer2019/blob/main/Gpos%2FCaptura1.png)
 
 Esto nos llevara a la siguiente ventana donde en la seccion bosque desplegaremos entraremos a dominios y nos iremos a nuestro dominio en este caso netsecure.com
 
-![Imagen de Bosque](https://github.com/DARCKBLACK06/Guias-WindowsServer2019/blob/main/Imagenes%2FCaptura-2.PNG)
+![Imagen de Bosque]https://github.com/DARCKBLACK06/Guias-WindowsServer2019/blob/main/Gpos%2FCaptura2.png
 
 Aqui se nos desplegara el siguiente menu donde nos iremos a "Objetos de directivas de grupo" aqui por defecto estaran dos directivas creadas con el nombre Default Domain aqui
 
