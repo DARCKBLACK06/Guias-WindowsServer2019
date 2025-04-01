@@ -146,11 +146,8 @@ Configuracion del documento predeterminado daremos doble click sobre el esto nos
  FastCgiPhp
  ```
 Configuracion final
-
- ![Imagen comprobacion cmd](https://github.com/DARCKBLACK06/Guias-WindowsServer2019/blob/main/Imagenes/Captura-17.PNG)
  
  ![Imagen comprobacion cmd](https://github.com/DARCKBLACK06/Guias-WindowsServer2019/blob/main/Imagenes/Captura-18.PNG)
- 
  ![Imagen comprobacion cmd](https://github.com/DARCKBLACK06/Guias-WindowsServer2019/blob/main/Imagenes/Captura-19.PNG)
 
 Damos click en aceptar y luego en si.
