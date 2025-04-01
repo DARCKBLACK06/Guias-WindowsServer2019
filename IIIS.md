@@ -148,8 +148,11 @@ Configuracion del documento predeterminado daremos doble click sobre el esto nos
 Configuracion final
 
  ![Imagen comprobacion cmd](https://github.com/DARCKBLACK06/Guias-WindowsServer2019/blob/main/Imagenes/Captura-17.PNG)
+ 
  ![Imagen comprobacion cmd](https://github.com/DARCKBLACK06/Guias-WindowsServer2019/blob/main/Imagenes/Captura-18.PNG)
+ 
  ![Imagen comprobacion cmd](https://github.com/DARCKBLACK06/Guias-WindowsServer2019/blob/main/Imagenes/Captura-19.PNG)
+
 Damos click en aceptar y luego en si.
 
 Con esto abremos terminado de configurar nuestro servidor IIS y FTP ahora buscaremos nuestra pagina web atraves de nuestro dns.
