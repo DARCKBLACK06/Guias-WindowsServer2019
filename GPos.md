@@ -17,29 +17,29 @@ Esto nos llevara a la siguiente ventana donde en la seccion bosque desplegaremos
 
 Aqui se nos desplegara el siguiente menu donde nos iremos a "Objetos de directivas de grupo" aqui por defecto estaran dos directivas creadas con el nombre Default Domain aqui
 
-![Imagen directivas]https://github.com/DARCKBLACK06/Guias-WindowsServer2019/blob/main/Imagenes%2FCaptura-3.PNG()
+![Imagen directivas](https://github.com/DARCKBLACK06/Guias-WindowsServer2019/blob/main/Imagenes%2FCaptura-3.PNG)
 
 Daremos click derecho y crearemos una nueva gpo le pondremos un nombre para identificarlo en este caso Area-ventas y aceptar con esto la directiva de grupo se habra creado 
 
-![Imagen crear-gpo]()
+![Imagen crear-gpo](https://github.com/DARCKBLACK06/Guias-WindowsServer2019/blob/main/Imagenes%2FCaptura-4.PNG)
 
-![Imagen ejemplo creado]()
+![Imagen ejemplo creado](https://github.com/DARCKBLACK06/Guias-WindowsServer2019/blob/main/Imagenes%2FCaptura-5.PNG)
 
 Ahora daremos click derecho sobre el nombre de nuestra Gpo y seleccionaremos editar.
 
-![Editar gpo]()
+![Editar gpo](https://github.com/DARCKBLACK06/Guias-WindowsServer2019/blob/main/Imagenes%2FCaptura-6.PNG)
 
 Esto nos llevara al editor de administracion de directivas de grupo.
 
-![Editor Gpo]()
+![Editor Gpo](https://github.com/DARCKBLACK06/Guias-WindowsServer2019/blob/main/Imagenes%2FCaptura-7.PNG)
 
 Aqui nos iremos a configuracion de usuario , directivas y plantillas administrativas.
 
-![Plantillas administrativas ]()
+![Plantillas administrativas ](https://github.com/DARCKBLACK06/Guias-WindowsServer2019/blob/main/Imagenes%2FCaptura-8.PNG)
 
 Aqui configuaremos el panel de control y la configuracion del equipo para que no puedan ser manipulados por los usuarios, nos iremos a Panel de control y seleccionaremos la que tiene el nombre Prohibir el acceso a configuracion de Pc y a Panel de control.
 
-![Prohibir PNLCTRL]()
+![Prohibir PNLCTRL](https://github.com/DARCKBLACK06/Guias-WindowsServer2019/blob/main/Imagenes%2FCaptura-9.PNG)
 
 Daremos doble click sobre ella y nos mostrara el sigueinte menu donde estara en No configurada por defecto la Habilitaremos y agregaremos un comentario esto es opcional despues damos click en Aplicar y Aceptar.
 
