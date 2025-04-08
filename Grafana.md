@@ -1,11 +1,5 @@
 # Manual de Instalación de Grafana en Windows Server con Windows Exporter y Prometheus
 
-## Requisitos Previos
-Antes de comenzar con la instalación, asegúrese de cumplir con los siguientes requisitos:
-- Windows Server 2019 o superior.
-- Conexión a Internet.
-- Permisos de administrador.
-
 ## 1. Instalación de Grafana
 ### 1.1 Descarga e Instalación
 1. Descargue Grafana desde el sitio oficial: [https://grafana.com/grafana/download](https://grafana.com/grafana/download).
