@@ -28,7 +28,7 @@ Windows Exporter es una herramienta que permite la exportación de métricas de 
 ### 1.2 Configuración para inicio automático
 Para que Grafana se inicie automáticamente al encender el servidor, registre Grafana como un servicio de Windows ejecutando:
 ```powershell
-sc.exe create Grafana binPath= "C:\Program Files\Grafana\bin\grafana-server.exe" start= auto
+sc.exe create Grafana binPath= "C:\grafana\bin\bin\grafana-server.exe" start= auto
 sc.exe start Grafana
 ```
 
@@ -49,7 +49,7 @@ sc.exe start Grafana
 2. Descargue la versión para Windows y extraiga los archivos en `C:\Program Files\Prometheus`.
 
 ### 3.2 Configuración de Prometheus
-1. Edite el archivo `C:\Program Files\Prometheus\prometheus.yml` y agregue la configuración de Windows Exporter:
+1. Edite el archivo `C:\Prometheus\prometheus.yml` y agregue la configuración de Windows Exporter:
    ```yaml
    global:
      scrape_interval: 15s
