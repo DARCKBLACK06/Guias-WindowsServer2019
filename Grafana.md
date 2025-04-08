@@ -1,5 +1,17 @@
 # Manual de Instalación de Grafana en Windows Server con Windows Exporter y Prometheus
 
+## Introducción
+Este manual describe el proceso de instalación y configuración de Grafana, Prometheus y Windows Exporter en Windows Server. Estas herramientas permiten la recopilación y visualización de métricas del sistema para un monitoreo eficiente.
+
+### ¿Qué es Grafana?
+Grafana es una plataforma de visualización y monitoreo de datos que permite la creación de dashboards interactivos a partir de diversas fuentes de datos, como Prometheus, InfluxDB, MySQL, entre otros.
+
+### ¿Qué es Prometheus?
+Prometheus es un sistema de monitoreo y alerta basado en series de tiempo. Recoge métricas de sistemas y servicios, almacenándolas en una base de datos optimizada para consultas y análisis.
+
+### ¿Qué es Windows Exporter?
+Windows Exporter es una herramienta que permite la exportación de métricas de Windows Server a Prometheus, proporcionando información sobre el rendimiento del sistema, uso de CPU, memoria, discos y red.
+
 ## 1. Instalación de Grafana
 ### 1.1 Descarga e Instalación
 1. Descargue Grafana desde el sitio oficial: [https://grafana.com/grafana/download](https://grafana.com/grafana/download).
@@ -12,6 +24,13 @@
    ```
 5. Acceda a Grafana desde el navegador en `http://localhost:3000/`.
 6. Inicie sesión con el usuario `admin` y la contraseña `admin`, luego cambie la contraseña.
+
+### 1.2 Configuración para inicio automático
+Para que Grafana se inicie automáticamente al encender el servidor, registre Grafana como un servicio de Windows ejecutando:
+```powershell
+sc.exe create Grafana binPath= "C:\Program Files\Grafana\bin\grafana-server.exe" start= auto
+sc.exe start Grafana
+```
 
 ## 2. Instalación de Windows Exporter
 ### 2.1 Descarga e Instalación
@@ -47,6 +66,13 @@
    ```
 3. Acceda a la interfaz web en `http://localhost:9090/`.
 
+### 3.3 Configuración para inicio automático
+Para que Prometheus se ejecute automáticamente al inicio del sistema, agregue un servicio de Windows:
+```powershell
+sc.exe create Prometheus binPath= "C:\Program Files\Prometheus\prometheus.exe --config.file=prometheus.yml" start= auto
+sc.exe start Prometheus
+```
+
 ## 4. Configuración de Grafana con Prometheus
 1. Inicie sesión en Grafana (`http://localhost:3000/`).
 2. Vaya a `Configuration > Data Sources`.
@@ -64,4 +90,5 @@
 4. Configure las opciones de visualización y guarde el dashboard.
 
 ## Conclusión
-Con estos pasos, ha instalado Grafana en Windows Server, configurado Windows Exporter y Prometheus para monitorear métricas del sistema. Ahora puede personalizar dashboards según sus necesidades.
+Con estos pasos, ha instalado Grafana en Windows Server, configurado Windows Exporter y Prometheus para monitorear métricas del sistema. También ha configurado cada servicio para que se inicie automáticamente con el sistema, garantizando un monitoreo continuo sin necesidad de intervención manual.
+
