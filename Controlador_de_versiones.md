@@ -189,3 +189,17 @@ git pull: Obtiene los cambios de otros colaboradores desde GitHub.
 git log: Muestra el historial de commits.
 
 git branch: Crea y gestiona ramas para desarrollo paralelo.
+
+
+…or create a new repository on the command line
+echo "# Mi-proyecto-tics-ird" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/DARCKBLACK06/Mi-proyecto-tics-ird.git
+git push -u origin main
+…or push an existing repository from the command line
+git remote add origin https://github.com/DARCKBLACK06/Mi-proyecto-tics-ird.git
+git branch -M main
+git push -u origin main
